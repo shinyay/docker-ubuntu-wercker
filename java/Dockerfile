@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:17.10
 RUN apt-get update && \
     apt-get install -y wget git && \
     apt-get install -y python-software-properties debconf-utils && \

@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:17.10
 RUN apt-get update && \
     apt-get install -y wget && \
     wget https://s3.amazonaws.com/downloads.wercker.com/cli/stable/linux_amd64/wercker -O /usr/local/bin/wercker && \
